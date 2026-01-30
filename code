@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Diri</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+
+    <h1>Profil Diri</h1>
+    <p>Halaman profil pribadi menggunakan HTML</p>
+
+    <a href="#tentang">Tentang Saya</a> |
+    <a href="#pendidikan">Pendidikan</a> |
+    <a href="#keahlian">Keahlian</a> |
+    <a href="#kontak">Kontak</a>
+
+    <hr>
+
+    <h2 id="tentang">Tentang Saya</h2>
+    <img src="hajibday.jpeg" alt="Foto Profil" width="250">
+    <p>
+        Halo, nama saya <b>Tri Haiji Januarli</b> panggil aja Haiji.  
+        Saya adalah mahasiswa <i>Informatika</i> universitas Bengkulu, mahasiswa semester 4 yang sedang mempelajari materi pengembangan web.
+    </p>
+
+    <hr>
+
+    <h2 id="pendidikan">Riwayat Pendidikan</h2>
+     <table border="1">
+        <tr>
+            <th>Tahun</th>
+            <th>institusi</th>
+            <th>Jurusan</th>
+        </tr>
+        <tr>
+            <td>2024-Sekarang</td>
+            <td>Universitas Bengkulu</td>
+            <td>Informatika</td>
+        </tr>
+        <tr>
+            <td>2021-2024</td>
+            <td>SMA Negeri 1 kota Bengkulu</td>
+            <td>IPA</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2 id="keahlian">Keahlian</h2>
+
+    <h3>Bahasa Pemrograman</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h3>Hobi</h3>
+    <ol>
+        <li>Travelling</li>
+        <li>Bersepada</li>
+        <li>Berenang</li>
+    </ol>
+
+    <hr>
+
+    <h2 id="kontak">Kontak Saya</h2>
+    <form>
+        <label>Nama:</label>
+        <br>
+        <input type="text" placeholder="Masukkan nama"><br>
+    <br>
+        <label>Email:</label>
+        <br>
+        <input type="email" placeholder="Masukkan email"><br>
+    <br>
+        <label form="">Password</label>
+    <br>
+        <input type="pasword"><br>
+    <br>
+        <label>Pesan:</label><br>
+        <textarea rows="4" cols="30"></textarea><br>
+    <br>
+        <button type="submit">submit</button>
+    </form>
+    
+    <br>
+    Holla, it's me!!:
+    <br>
+    <video width="320" height="240" controls>
+    <source src="haijivdo.mp4" type="video/mp4">
+    </video>
+
+    <hr>
+
+    <p>© 2026 Nama Mahasiswa</p>
+    <p>
+        Kunjungi:
+        <a href="https://github.com/haiji27/proyek-webprograman">GitHub</a> |
+        <a href="https://www.instagram.com/withjiji_?igsh=bXo5b3U5bjB6Mzhn&utm_source=qr">Instagram</a>
+    <p>
+    Contact me:
+     <a href="thaijijanuarli@gmail.com">Email</a> |
+    </p>
+
+</body>
+</html>
