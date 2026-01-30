@@ -1,28 +1,16 @@
 # proyek-webprograman
 
-<!DOCTYPE html>
-<html lang="id">
-Baris ini digunakan untuk mendefinisikan dokumen sebagai HTML5. Dimana Atribut lang="id" menandakan bahwa bahasa yang digunakan pada halaman adalah Bahasa Indonesia.
-Selanjutnya, <head> ini berfungsi untuk menyimpan informasi tentang halaman web, bukan untuk ditampilkan langsung di layar.
-  <meta charset="UTF-8"> berfungsi agar karakter (huruf, simbol) dapat ditampilkan dengan benar.
-  <title>Profil Diri</title> ini berfungsi menentukan judul halaman yang muncul pada tab browser.
-</head> ini berfungsi sebagai penutup tag <head> yang menandakan akhir dari bagian pengaturan halaman web sebelum masuk ke bagian konten utama (<body>).
-Tag <style> ini digunakan untuk menambahkan CSS jika ingin mempercantik tampilan website.
+'<!DOCTYPE html>'
+'<html lang="id"> baris ini digunakan untuk mendefinisikan dokumen sebagai HTML5. Dimana Atribut lang="id" menandakan bahwa bahasa yang digunakan pada halaman adalah Bahasa Indonesia.
+Selanjutnya, <head> ini berfungsi untuk menyimpan informasi tentang halaman web, bukan untuk ditampilkan langsung di layar. <meta charset="UTF-8"> berfungsi agar karakter (huruf, simbol) dapat ditampilkan dengan benar. <title>Profil Diri</title> ini berfungsi menentukan judul halaman yang muncul pada tab browser. </head> ini berfungsi sebagai penutup tag <head> yang menandakan akhir dari bagian pengaturan halaman web sebelum masuk ke bagian konten utama (<body>). Serta <style> ini digunakan untuk menambahkan CSS jika ingin mempercantik tampilan website.
 
 Judul dan Navigasi Halaman
-<h1>Profil Diri</h1> Digunakan untuk menampilkan judul utama dan deskripsi singkat halaman. Jadi <h1> sebagai judul utama halaman.
-<p> Halaman profil pribadi menggunakan HTML </p>, jadi <p> sebagai paragraf penjelasan singkat, sedangkan </p> berfungsi untuk menutup paragraf teks yang dibuat dengan tag <p> sehingga struktur teks pada halaman web menjadi rapi dan mudah dibaca.
-
-<a href="#tentang">Tentang Saya</a> |
-<a href="#pendidikan">Pendidikan</a> |
-<a href="#keahlian">Keahlian</a> |
-<a href="#kontak">Kontak</a>
-Bagian ini merupakan menu navigasi yang menghubungkan ke bagian tertentu pada halaman menggunakan anchor link (id). Dimana <a href="#...."> ini merupakan link ke bagian dengan id="...". lalu tanda | sebagai pemisah visual. Code ini disebut navigasi internal halaman
-<hr> ini berfungsi sebagai pemisah antar bagian
+<h1>Profil Diri</h1> Digunakan untuk menampilkan judul utama dan deskripsi singkat halaman, jadi h1 sebagai judul utama halaman. <p> Halaman profil pribadi menggunakan HTML </p>, jadi <p> sebagai paragraf penjelasan singkat, sedangkan </p> berfungsi untuk menutup paragraf teks yang dibuat dengan tag <p> sehingga struktur teks pada halaman web menjadi rapi dan mudah dibaca.
+Lalu code a href="#tentang">Tentang Saya</a | Bagian ini merupakan menu navigasi yang menghubungkan ke bagian tertentu pada halaman menggunakan anchor link (id). Dimana <a href="#...."> ini merupakan link ke bagian dengan id="...". lalu tanda | sebagai pemisah visual. Code ini disebut navigasi internal halaman
+hr ini berfungsi sebagai pemisah antar bagian
 
 Bagian Tentang Saya
-<h2 id="tentang">Tentang Saya</h2> ini sebagai judul bagian + target navigasi, id="tentang" digunakan agar menu navigasi dapat menuju bagian ini.
-<img src="hajibday.jpeg" alt="Foto Profil" width="250">, <img> digunakan untuk menampilkan foto profil dari file lokal. Lalu src untuk nama file gambar, alt untuk teks alternatif, dan width untuk ukuran gambar
+Code <h2 id="tentang">Tentang Saya</h2> ini sebagai judul bagian dan target navigasi, id="tentang" digunakan agar menu navigasi dapat menuju bagian ini. <img src="hajibday.jpeg" alt="Foto Profil" width="250">, <img> digunakan untuk menampilkan foto profil dari file lokal. Lalu src untuk nama file gambar, alt untuk teks alternatif, dan width untuk ukuran gambar
 Halo, nama saya <b>Tri Haiji Januarli</b> panggil aja Haiji. Saya adalah mahasiswa <i>Informatika</i> universitas Bengkulu, mahasiswa semester 4 yang sedang mempelajari materi pengembangan web. Dimana <b> ini berfungsi agar teks menjadi bold, lalu <i> untuk membuat teks menjadi teks miring, serta <br> agar dapat berpindah baris
 
 Riwayat Pendidikan
